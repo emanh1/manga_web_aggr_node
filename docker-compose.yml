@@ -16,7 +16,7 @@ services:
     ports:
       - "80:80"
     depends_on:
-      - ipfs_node
+      - ipfs-node
     environment:
       - name=value
     restart: unless-stopped
