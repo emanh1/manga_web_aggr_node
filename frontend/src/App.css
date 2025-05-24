@@ -5,6 +5,43 @@
   text-align: center;
 }
 
+.container {
+  padding: 2rem;
+}
+
+.manga-uploader {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.manga-uploader input[type="file"] {
+  padding: 1rem;
+  border: 2px dashed #646cff;
+  border-radius: 8px;
+}
+
+.results {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.results ul {
+  list-style: none;
+  padding: 0;
+}
+
+.results li {
+  margin: 0.5rem 0;
+  word-break: break-all;
+}
+
+.results a {
+  color: #646cff;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
