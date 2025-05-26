@@ -4,6 +4,7 @@ services:
     restart: unless-stopped
     volumes:
       - ipfs-data:/data/ipfs
+      - ./kubo/001-config.sh:/container-init.d/001-config.sh
     ports:
       - "4001:4001"
       - "127.0.0.1:5001:5001"
